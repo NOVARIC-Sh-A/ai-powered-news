@@ -1,0 +1,6 @@
+{
+  "name": "NOVARIC® AI-Powered News",
+  "description": "An intelligent application that uses AI to fact-check news claims or articles, providing a verdict, summary, and supporting sources from the web.",
+  "requestFramePermissions": [],
+  "prompt": ""
+}

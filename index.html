@@ -1,0 +1,79 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NOVARIC® AI-Powered News</title>
+  <link rel="canonical" href="https://media.novaric.al" />
+  <link rel="icon" href="https://i0.wp.com/novaric.al/wp-content/uploads/2025/06/c0e0554e-3fe8-11f0-90a6-0242ac110002-png-regular_image.png?w=1280&ssl=1" type="image/png">
+  <link rel="apple-touch-icon" href="https://i0.wp.com/novaric.al/wp-content/uploads/2025/06/c0e0554e-3fe8-11f0-90a6-0242ac110002-png-regular_image.png?w=1280&ssl=1">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            primary: {
+              "50": "#fee2e2",  // Lighter red for shades
+              "100": "#fecaca",
+              "200": "#fca5a5",
+              "300": "#f87171",
+              "400": "#ef4444",
+              "500": "#e4191e",  // NOVARIC Base Red
+              "600": "#dc2626",  // Darker for hover/active
+              "700": "#b91c1c",
+              "800": "#991b1b",
+              "900": "#7f1d1d",
+              "950": "#450a0a"   // Darkest red
+            },
+            'action-border': '#37bdee', // Added custom border color
+          }
+        }
+      }
+    }
+  </script>
+<style>
+  body {
+    background-image: url('https://novaric.al/wp-content/uploads/2025/06/adobestock_1030253027-2.jpeg');
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    /* Fallback color in case image fails to load or while it's loading */
+    background-color: #f1f5f9; /* Equivalent to slate-100 */
+    color: #0f172a; /* Default text color, slate-900 */
+    /* padding-bottom: 120px; /* Removed padding as popups are gone */
+  }
+  @media (prefers-color-scheme: dark) {
+    body {
+      background-color: #0f172a; /* Equivalent to slate-900 */
+      color: #f1f5f9; /* Default dark text color, slate-100 */
+    }
+  }
+
+  /* Styles for static-thumbnail-preview-area and related elements removed */
+
+</style>
+<script type="importmap">
+{
+  "imports": {
+    "react/": "https://esm.sh/react@^19.1.0/",
+    "react": "https://esm.sh/react@^19.1.0",
+    "react-dom/": "https://esm.sh/react-dom@^19.1.0/",
+    "@google/genai": "https://esm.sh/@google/genai@^1.5.1"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+<body>
+  <div id="root"></div>
+
+  <!-- Removed static-thumbnail-preview-area div -->
+
+  <script type="module" src="/index.tsx"></script>
+
+  <!-- Removed script for static thumbnail pop-ups -->
+</body>
+</html>
