@@ -59,7 +59,7 @@ export const Footer: React.FC<FooterProps> = ({
         </div>
         <p className="text-sm">&copy; {new Date().getFullYear()} NOVARIC®. Të gjitha të drejtat të rezervuara.</p>
         <p className="text-sm">NOVARIC® Lajme të Verifikuara me AI.</p>
-        <p className="text-sm mt-1">Mundësuar nga NOVARIC® Media House.</p>
+        <p className="text-sm mt-1"></p>
         <p className="text-xs mt-3 text-slate-200">
           Mohim përgjegjësie: Verifikimet e fakteve të gjeneruara nga IA mund të mos jenë gjithmonë të sakta. Gjithmonë verifikoni informacionin nga burime të shumta me reputacion.
         </p>
